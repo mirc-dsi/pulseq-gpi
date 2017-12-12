@@ -1,0 +1,1818 @@
+# This file was written with GPI v1.0.0 using Network v3. Do not edit this line.
+{
+ "DATETIME": "Thu Dec  7 22:33:30 2017",
+ "GPI_VERSION": "1.0.0",
+ "HEADER": "This is a GPI Network File",
+ "NETWORK_VERSION": "3",
+ "PLATFORM": {
+  "HOSTNAME": "gpilab",
+  "NUM_CPUS": 4,
+  "OS": "Linux",
+  "PLATFORM": "Linux-4.2.0-18-generic-x86_64-with-debian-jessie-sid",
+  "PYTHON": "CPython",
+  "PYTHON_VERSION": "3.5.0",
+  "TOTAL_PHYMEM": 4140109824,
+  "TOTAL_PHYMEM_STR": "3.86 GB"
+ },
+ "TOTAL_PMEM": "175968",
+ "WALLTIME": "2.2225804328918457",
+ "layouts": [],
+ "nodes": {
+  "macroNodes": [],
+  "nodes": [
+   {
+    "avgwalltime": "0.7351597547531128",
+    "id": 140105269393448,
+    "key": "pulseq-gpi.mr_nodes.AddBlock",
+    "name": "AddBlock",
+    "ports": [
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105269393448,
+         "portID": 140105269366216,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105792795992,
+         "portID": 140105706072104,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105269366216,
+      "obligation": 100,
+      "portnum": 0,
+      "porttitle": "input",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105352802520,
+         "portID": 140106100683544,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269393448,
+         "portID": 140105269366360,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105269366360,
+      "obligation": null,
+      "portnum": 0,
+      "porttitle": "output",
+      "porttype": 65541,
+      "widgetTitle": null
+     }
+    ],
+    "pos": [
+     1.4000000000000057,
+     -28.900000000000006
+    ],
+    "stdwalltime": "0.505529698543533",
+    "walltime": "0.5736427307128906",
+    "widget_settings": {
+     "label": "",
+     "parms": [
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269560088,
+        "inport": false,
+        "mask": false,
+        "maskedval": "delay1",
+        "outport": false,
+        "placeholder": "",
+        "quietval": null,
+        "val": "delay1",
+        "visible": true
+       },
+       "name": "Unique Node Name",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269560520,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {
+         "event_name": "Delay",
+         "event_unique_name": "d1",
+         "event_values": {
+          "delay": "0.00347"
+         },
+         "include_in_loop": true
+        },
+        "visible": true
+       },
+       "name": "Event 1",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269386984,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 2",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269328200,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 3",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269347240,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 4",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269358024,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 5",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269321800,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 6",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "button_title": "",
+        "collapsed": false,
+        "id": 140105269365496,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "toggle": false,
+        "val": false,
+        "visible": true
+       },
+       "name": "ComputeEvents",
+       "type": "<class 'gpi.widgets.PushButton'>"
+      }
+     ]
+    }
+   },
+   {
+    "avgwalltime": "1.4752493103345234",
+    "id": 140105269510216,
+    "key": "pulseq-gpi.mr_nodes.GenSeq",
+    "name": "GenSeq",
+    "ports": [
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105269510216,
+         "portID": 140105269498936,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269434120,
+         "portID": 140105269505048,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105269498936,
+      "obligation": 100,
+      "portnum": 0,
+      "porttitle": "input",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105269499080,
+      "obligation": 200,
+      "portnum": 1,
+      "porttitle": "epi_readout",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105588523800,
+         "portID": 140105588490744,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269510216,
+         "portID": 140105269499224,
+         "portName": "seq_output",
+         "portNum": 0
+        }
+       },
+       {
+        "dest": {
+         "nodeID": 140105269501528,
+         "portID": 140105269570296,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269510216,
+         "portID": 140105269499224,
+         "portName": "seq_output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105269499224,
+      "obligation": null,
+      "portnum": 0,
+      "porttitle": "seq_output",
+      "porttype": 65541,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105269499368,
+      "obligation": null,
+      "portnum": 1,
+      "porttitle": "adc_output",
+      "porttype": 65541,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105269499512,
+      "obligation": null,
+      "portnum": 2,
+      "porttitle": "rf_mag_output",
+      "porttype": 65541,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105269499656,
+      "obligation": null,
+      "portnum": 3,
+      "porttitle": "rf_phase_output",
+      "porttype": 65541,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105269499800,
+      "obligation": null,
+      "portnum": 4,
+      "porttitle": "trap_x_output",
+      "porttype": 65541,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105269492040,
+      "obligation": null,
+      "portnum": 5,
+      "porttitle": "trap_y_output",
+      "porttype": 65541,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105269491464,
+      "obligation": null,
+      "portnum": 6,
+      "porttitle": "trap_z_output",
+      "porttype": 65541,
+      "widgetTitle": null
+     }
+    ],
+    "pos": [
+     2.4000000000000057,
+     25.099999999999994
+    ],
+    "stdwalltime": "2.0924069463132904",
+    "walltime": "0.6463956832885742",
+    "widget_settings": {
+     "label": "",
+     "parms": [
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269513240,
+        "inport": false,
+        "openExternalLinks": false,
+        "outport": false,
+        "quietval": null,
+        "val": "rf_gz\ngx_adc\ndelay1\ngxPre_gyPre_gzReph\ndelay2\n",
+        "visible": true,
+        "wordwrap": false
+       },
+       "name": "Events you defined",
+       "type": "<class 'gpi.widgets.TextBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269513672,
+        "inport": false,
+        "mask": false,
+        "maskedval": "rf_gz,gxPre_gyPre_gzReph,delay1,gx_adc,delay2",
+        "outport": false,
+        "placeholder": "",
+        "quietval": null,
+        "val": "rf_gz,gxPre_gyPre_gzReph,delay1,gx_adc,delay2",
+        "visible": true
+       },
+       "name": "Order of events",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "button_title": "Compute events",
+        "collapsed": false,
+        "id": 140105269514104,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "toggle": false,
+        "val": false,
+        "visible": true
+       },
+       "name": "ComputeEvents",
+       "type": "<class 'gpi.widgets.PushButton'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269498504,
+        "inport": false,
+        "openExternalLinks": false,
+        "outport": false,
+        "quietval": null,
+        "val": "Sequence:\nshape_library: EventLibrary:\nkeys: 2\ndata: 2\nlengths: 2\ntype: 2\nrf_library: EventLibrary:\nkeys: 1\ndata: 1\nlengths: 1\ntype: 1\ngrad_library: EventLibrary:\nkeys: 6\ndata: 6\nlengths: 6\ntype: 6\nadc_library: EventLibrary:\nkeys: 1\ndata: 1\nlengths: 1\ntype: 1\ndelay_library: EventLibrary:\nkeys: 2\ndata: 2\nlengths: 2\ntype: 2\nrf_raster_time: 1e-06\ngrad_raster_time: 1e-05\nblock_events: 10",
+        "visible": true,
+        "wordwrap": false
+       },
+       "name": "Sequence details",
+       "type": "<class 'gpi.widgets.TextBox'>"
+      }
+     ]
+    }
+   },
+   {
+    "avgwalltime": "0.6020510991414388",
+    "id": 140105269796440,
+    "key": "pulseq-gpi.mr_nodes.AddBlock",
+    "name": "AddBlock",
+    "ports": [
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105269796440,
+         "portID": 140105269448424,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269802472,
+         "portID": 140106100562536,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105269448424,
+      "obligation": 100,
+      "portnum": 0,
+      "porttitle": "input",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105792795992,
+         "portID": 140105706072824,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269796440,
+         "portID": 140105269448568,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105269448568,
+      "obligation": null,
+      "portnum": 0,
+      "porttitle": "output",
+      "porttype": 65541,
+      "widgetTitle": null
+     }
+    ],
+    "pos": [
+     -173.6,
+     -30.900000000000006
+    ],
+    "stdwalltime": "0.2836972741193626",
+    "walltime": "0.6492078304290771",
+    "widget_settings": {
+     "label": "",
+     "parms": [
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269808296,
+        "inport": false,
+        "mask": false,
+        "maskedval": "rf_gz",
+        "outport": false,
+        "placeholder": "",
+        "quietval": null,
+        "val": "rf_gz",
+        "visible": true
+       },
+       "name": "Unique Node Name",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269808728,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {
+         "event_name": "SincRF",
+         "event_unique_name": "rf",
+         "event_values": {
+          "apodization": "0.5",
+          "duration": "2.5e-3",
+          "flip_angle": "15",
+          "freq_offset": "0",
+          "max_grad": "0",
+          "max_slew": "0",
+          "phase_offset": "0",
+          "slice_thickness": "5e-3",
+          "time_bw_prod": "4"
+         },
+         "include_gz": true,
+         "include_in_loop": true
+        },
+        "visible": true
+       },
+       "name": "Event 1",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269835960,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 2",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269809944,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 3",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269833016,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 4",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269843864,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 5",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269404152,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 6",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "button_title": "",
+        "collapsed": false,
+        "id": 140105269447704,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "toggle": false,
+        "val": false,
+        "visible": true
+       },
+       "name": "ComputeEvents",
+       "type": "<class 'gpi.widgets.PushButton'>"
+      }
+     ]
+    }
+   },
+   {
+    "avgwalltime": "1.7670699868883406",
+    "id": 140105269501528,
+    "key": "pulseq-gpi.mr_nodes.PlotSeq",
+    "name": "PlotSeq",
+    "ports": [
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105269501528,
+         "portID": 140105269570296,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269510216,
+         "portID": 140105269499224,
+         "portName": "seq_output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105269570296,
+      "obligation": 100,
+      "portnum": 0,
+      "porttitle": "input",
+      "porttype": 65540,
+      "widgetTitle": null
+     }
+    ],
+    "pos": [
+     1.4000000000000057,
+     69.1
+    ],
+    "stdwalltime": "1.7491554858872222",
+    "walltime": "0.6799159049987793",
+    "widget_settings": {
+     "label": "",
+     "parms": [
+      {
+       "kwargs": {
+        "collapsed": true,
+        "id": 140105269529768,
+        "inport": false,
+        "interp": false,
+        "line": null,
+        "noscroll": true,
+        "outport": false,
+        "points": null,
+        "quietval": null,
+        "scale": 1.0,
+        "val": null,
+        "visible": true
+       },
+       "name": "Sequence Plot",
+       "type": "<class 'gpi.widgets.DisplayBox'>"
+      }
+     ]
+    }
+   },
+   {
+    "avgwalltime": "0.7177811066309611",
+    "id": 140105352802520,
+    "key": "pulseq-gpi.mr_nodes.AddBlock",
+    "name": "AddBlock",
+    "ports": [
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105352802520,
+         "portID": 140106100683544,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269393448,
+         "portID": 140105269366360,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140106100683544,
+      "obligation": 100,
+      "portnum": 0,
+      "porttitle": "input",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105269434120,
+         "portID": 140105269504904,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105352802520,
+         "portID": 140106100683256,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140106100683256,
+      "obligation": null,
+      "portnum": 0,
+      "porttitle": "output",
+      "porttype": 65541,
+      "widgetTitle": null
+     }
+    ],
+    "pos": [
+     86.4,
+     -27.900000000000006
+    ],
+    "stdwalltime": "0.5186014766340046",
+    "walltime": "0.7194037437438965",
+    "widget_settings": {
+     "label": "",
+     "parms": [
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105352730376,
+        "inport": false,
+        "mask": false,
+        "maskedval": "gxPre_gyPre_gzReph",
+        "outport": false,
+        "placeholder": "",
+        "quietval": null,
+        "val": "gxPre_gyPre_gzReph",
+        "visible": true
+       },
+       "name": "Unique Node Name",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105352729944,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {
+         "event_name": "G",
+         "event_unique_name": "gx_pre",
+         "event_values": {
+          "amplitude": "0",
+          "area": "-gx.area/2",
+          "channel": "x",
+          "duration": "2e-3",
+          "flat_area": "0",
+          "flat_time": "0",
+          "max_grad": "0",
+          "max_slew": "0",
+          "rise_time": "0"
+         },
+         "include_in_loop": true
+        },
+        "visible": true
+       },
+       "name": "Event 1",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105357614392,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {
+         "event_name": "GyPre",
+         "event_unique_name": "gy_pre",
+         "event_values": {
+          "area": "0",
+          "duration": "2e-3"
+         },
+         "include_in_loop": true
+        },
+        "visible": true
+       },
+       "name": "Event 2",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105398741896,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {
+         "event_name": "G",
+         "event_unique_name": "gz_reph",
+         "event_values": {
+          "amplitude": "0",
+          "area": "-gz_rf.area/2",
+          "channel": "z",
+          "duration": "2e-3",
+          "flat_area": "0",
+          "flat_time": "0",
+          "max_grad": "0",
+          "max_slew": "0",
+          "rise_time": "0"
+         },
+         "include_in_loop": true
+        },
+        "visible": true
+       },
+       "name": "Event 3",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105399121384,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 4",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105559871704,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 5",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105559898440,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 6",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "button_title": "",
+        "collapsed": false,
+        "id": 140106100684408,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "toggle": false,
+        "val": false,
+        "visible": true
+       },
+       "name": "ComputeEvents",
+       "type": "<class 'gpi.widgets.PushButton'>"
+      }
+     ]
+    }
+   },
+   {
+    "avgwalltime": "0.7089078028996786",
+    "id": 140105269434120,
+    "key": "pulseq-gpi.mr_nodes.AddBlock",
+    "name": "AddBlock",
+    "ports": [
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105269434120,
+         "portID": 140105269504904,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105352802520,
+         "portID": 140106100683256,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105269504904,
+      "obligation": 100,
+      "portnum": 0,
+      "porttitle": "input",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105269510216,
+         "portID": 140105269498936,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269434120,
+         "portID": 140105269505048,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105269505048,
+      "obligation": null,
+      "portnum": 0,
+      "porttitle": "output",
+      "porttype": 65541,
+      "widgetTitle": null
+     }
+    ],
+    "pos": [
+     175.4,
+     -27.900000000000006
+    ],
+    "stdwalltime": "0.5086565675366771",
+    "walltime": "0.5779268741607666",
+    "widget_settings": {
+     "label": "",
+     "parms": [
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269440728,
+        "inport": false,
+        "mask": false,
+        "maskedval": "delay2",
+        "outport": false,
+        "placeholder": "",
+        "quietval": null,
+        "val": "delay2",
+        "visible": true
+       },
+       "name": "Unique Node Name",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269441160,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {
+         "event_name": "Delay",
+         "event_unique_name": "d2",
+         "event_values": {
+          "delay": "0.00547"
+         },
+         "include_in_loop": true
+        },
+        "visible": true
+       },
+       "name": "Event 1",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269468328,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 2",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269470984,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 3",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269389496,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 4",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269482552,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 5",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269476952,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 6",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "button_title": "",
+        "collapsed": false,
+        "id": 140105269504184,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "toggle": false,
+        "val": false,
+        "visible": true
+       },
+       "name": "ComputeEvents",
+       "type": "<class 'gpi.widgets.PushButton'>"
+      }
+     ]
+    }
+   },
+   {
+    "avgwalltime": "0.7501721722739083",
+    "id": 140105588523800,
+    "key": "pulseq-gpi.mr_nodes.WriteSeq",
+    "name": "WriteSeq",
+    "ports": [
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105588523800,
+         "portID": 140105588490744,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269510216,
+         "portID": 140105269499224,
+         "portName": "seq_output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105588490744,
+      "obligation": 100,
+      "portnum": 0,
+      "porttitle": "input",
+      "porttype": 65540,
+      "widgetTitle": null
+     }
+    ],
+    "pos": [
+     -80.6,
+     68.1
+    ],
+    "stdwalltime": "0.5895138319282324",
+    "walltime": "0.8111586570739746",
+    "widget_settings": {
+     "label": "",
+     "parms": [
+      {
+       "kwargs": {
+        "collapsed": false,
+        "directory": "/Users/sravan953/Desktop",
+        "id": 140105588490600,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": "/Users/sravan953/Desktop/gre_gpi",
+        "visible": true
+       },
+       "name": "File location",
+       "type": "<class 'gpi.widgets.SaveFileBrowser'>"
+      },
+      {
+       "kwargs": {
+        "button_title": "Write",
+        "collapsed": false,
+        "id": 140105588484568,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "toggle": false,
+        "val": false,
+        "visible": true
+       },
+       "name": "Write seq file",
+       "type": "<class 'gpi.widgets.PushButton'>"
+      }
+     ]
+    }
+   },
+   {
+    "avgwalltime": "0.6737672090530396",
+    "id": 140105792795992,
+    "key": "pulseq-gpi.mr_nodes.AddBlock",
+    "name": "AddBlock",
+    "ports": [
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105792795992,
+         "portID": 140105706072824,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269796440,
+         "portID": 140105269448568,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105706072824,
+      "obligation": 100,
+      "portnum": 0,
+      "porttitle": "input",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105269393448,
+         "portID": 140105269366216,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105792795992,
+         "portID": 140105706072104,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140105706072104,
+      "obligation": null,
+      "portnum": 0,
+      "porttitle": "output",
+      "porttype": 65541,
+      "widgetTitle": null
+     }
+    ],
+    "pos": [
+     -86.6,
+     -29.900000000000006
+    ],
+    "stdwalltime": "0.40825372428112566",
+    "walltime": "0.6273152828216553",
+    "widget_settings": {
+     "label": "",
+     "parms": [
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269780840,
+        "inport": false,
+        "mask": false,
+        "maskedval": "gx_adc",
+        "outport": false,
+        "placeholder": "",
+        "quietval": null,
+        "val": "gx_adc",
+        "visible": true
+       },
+       "name": "Unique Node Name",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269781272,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {
+         "event_name": "G",
+         "event_unique_name": "gx",
+         "event_values": {
+          "amplitude": "0",
+          "area": "0",
+          "channel": "x",
+          "duration": "0",
+          "flat_area": "1000",
+          "flat_time": "6.4e-3",
+          "max_grad": "0",
+          "max_slew": "0",
+          "rise_time": "0"
+         },
+         "include_in_loop": true
+        },
+        "visible": true
+       },
+       "name": "Event 1",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269738808,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {
+         "event_name": "ADC",
+         "event_unique_name": "adc",
+         "event_values": {
+          "delay": "gx.rise_time",
+          "duration": "gx.flat_time",
+          "dwell": "0",
+          "freq_offset": "0",
+          "num_samples": "256",
+          "phase_offset": "0"
+         },
+         "include_in_loop": true
+        },
+        "visible": true
+       },
+       "name": "Event 2",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269753752,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 3",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269768696,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 4",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269787672,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 5",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269790328,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "val": {},
+        "visible": true
+       },
+       "name": "Event 6",
+       "type": "<class '/home/gpi/gpi/pulseq-gpi/mr_nodes/AddBlock_GPI.AddBlockWidgets'>"
+      },
+      {
+       "kwargs": {
+        "button_title": "",
+        "collapsed": false,
+        "id": 140105706073832,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "toggle": false,
+        "val": false,
+        "visible": true
+       },
+       "name": "ComputeEvents",
+       "type": "<class 'gpi.widgets.PushButton'>"
+      }
+     ]
+    }
+   },
+   {
+    "avgwalltime": "0.00012969970703125",
+    "id": 140105269132168,
+    "key": "core.display.Matplotlib",
+    "name": "Matplotlib",
+    "ports": [
+     {
+      "connections": [],
+      "id": 140105352890408,
+      "obligation": 200,
+      "portnum": 0,
+      "porttitle": "in0",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105588347384,
+      "obligation": 200,
+      "portnum": 1,
+      "porttitle": "in1",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105588348824,
+      "obligation": 200,
+      "portnum": 2,
+      "porttitle": "in2",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105588347672,
+      "obligation": 200,
+      "portnum": 3,
+      "porttitle": "in3",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105588349832,
+      "obligation": 200,
+      "portnum": 4,
+      "porttitle": "in4",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105588350696,
+      "obligation": 200,
+      "portnum": 5,
+      "porttitle": "in5",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105588348680,
+      "obligation": 200,
+      "portnum": 6,
+      "porttitle": "in6",
+      "porttype": 65540,
+      "widgetTitle": null
+     },
+     {
+      "connections": [],
+      "id": 140105588349688,
+      "obligation": 200,
+      "portnum": 7,
+      "porttitle": "in7",
+      "porttype": 65540,
+      "widgetTitle": null
+     }
+    ],
+    "pos": [
+     74.4,
+     70.1
+    ],
+    "stdwalltime": "4.291534423828125e-06",
+    "walltime": "0.00012540817260742188",
+    "widget_settings": {
+     "label": "",
+     "parms": [
+      {
+       "kwargs": {
+        "autoscale": true,
+        "collapsed": false,
+        "grid": true,
+        "id": 140105345297720,
+        "inport": false,
+        "legend": false,
+        "lineOptions": [
+         {
+          "alpha": 0.8571428571428572,
+          "color": "b",
+          "label": "_line0",
+          "linestyle": "-",
+          "linewidth": 2.8927900303521317,
+          "marker": "None",
+          "markeredgecolor": "b",
+          "markerfacecolor": "b",
+          "markersize": 6.0
+         },
+         {
+          "alpha": null,
+          "color": "k",
+          "label": "y=0",
+          "linestyle": "-",
+          "linewidth": 1.0,
+          "marker": "None",
+          "markeredgecolor": "k",
+          "markerfacecolor": "k",
+          "markersize": 6.0
+         },
+         {
+          "alpha": null,
+          "color": "k",
+          "label": "x=0",
+          "linestyle": "-",
+          "linewidth": 1.0,
+          "marker": "None",
+          "markeredgecolor": "k",
+          "markerfacecolor": "k",
+          "markersize": 6.0
+         }
+        ],
+        "outport": false,
+        "plotOptions": {},
+        "plotPosition": {
+         "bottom": 0.119,
+         "hspace": 0.2,
+         "left": 0.111,
+         "right": 0.913,
+         "top": 0.912,
+         "wspace": 0.2
+        },
+        "plotlabels": {
+         "title": "",
+         "xlabel": "",
+         "ylabel": ""
+        },
+        "quietval": null,
+        "scale": {
+         "xscale": false,
+         "yscale": false
+        },
+        "ticks": {
+         "xticknum": 5,
+         "xticks": "",
+         "yticknum": 5,
+         "yticks": ""
+        },
+        "val": [],
+        "visible": true,
+        "xlim": [
+         -0.06,
+         0.06
+        ],
+        "xline": true,
+        "ylim": [
+         -0.06,
+         0.06
+        ],
+        "yline": true
+       },
+       "name": "Plot",
+       "type": "<class '/home/gpi/gpi_stack/lib/python3.5/site-packages/gpi/node-libs/core/display/GPI/Matplotlib_GPI.MatplotDisplay'>"
+      }
+     ]
+    }
+   },
+   {
+    "avgwalltime": "0.5991155760628837",
+    "id": 140105269802472,
+    "key": "pulseq-gpi.mr_nodes.ConfigSeq",
+    "name": "ConfigSeq",
+    "ports": [
+     {
+      "connections": [
+       {
+        "dest": {
+         "nodeID": 140105269796440,
+         "portID": 140105269448424,
+         "portName": "input",
+         "portNum": 0
+        },
+        "src": {
+         "nodeID": 140105269802472,
+         "portID": 140106100562536,
+         "portName": "output",
+         "portNum": 0
+        }
+       }
+      ],
+      "id": 140106100562536,
+      "obligation": null,
+      "portnum": 0,
+      "porttitle": "output",
+      "porttype": 65541,
+      "widgetTitle": null
+     }
+    ],
+    "pos": [
+     -0.5999999999999943,
+     -86.9
+    ],
+    "stdwalltime": "0.3378728933054043",
+    "walltime": "0.591562032699585",
+    "widget_settings": {
+     "label": "",
+     "parms": [
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269793128,
+        "inport": false,
+        "mask": false,
+        "maskedval": "33",
+        "outport": false,
+        "placeholder": "max_grad",
+        "quietval": null,
+        "val": "33",
+        "visible": true
+       },
+       "name": "Maximum Gradient",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105269793560,
+        "index": 1,
+        "inport": false,
+        "items": [
+         "Hz/m",
+         "mT/m",
+         "rad/ms/mm"
+        ],
+        "outport": false,
+        "quietval": null,
+        "val": "mT/m",
+        "visible": true
+       },
+       "name": "Maximum Gradient Unit",
+       "type": "<class 'gpi.widgets.ComboBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105792840040,
+        "inport": false,
+        "mask": false,
+        "maskedval": "100",
+        "outport": false,
+        "placeholder": "max_slew",
+        "quietval": null,
+        "val": "100",
+        "visible": true
+       },
+       "name": "Maximum Slew Rate",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105588482984,
+        "index": 2,
+        "inport": false,
+        "items": [
+         "Hz/m/s",
+         "mT/m/ms",
+         "T/m/s",
+         "rad/ms/mm/ms"
+        ],
+        "outport": false,
+        "quietval": null,
+        "val": "T/m/s",
+        "visible": true
+       },
+       "name": "Maximum Slew Rate Unit",
+       "type": "<class 'gpi.widgets.ComboBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105588483416,
+        "inport": false,
+        "mask": false,
+        "maskedval": "20e-3",
+        "outport": false,
+        "placeholder": "TE",
+        "quietval": null,
+        "val": "20e-3",
+        "visible": true
+       },
+       "name": "Repetition Time (s)",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105352901832,
+        "inport": false,
+        "mask": false,
+        "maskedval": "10e-3",
+        "outport": false,
+        "placeholder": "TR",
+        "quietval": null,
+        "val": "10e-3",
+        "visible": true
+       },
+       "name": "Echo Time (s)",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105352901544,
+        "inport": false,
+        "mask": false,
+        "maskedval": "256e-3",
+        "outport": false,
+        "placeholder": "fov",
+        "quietval": null,
+        "val": "256e-3",
+        "visible": true
+       },
+       "name": "Field of View",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105352876968,
+        "inport": false,
+        "mask": false,
+        "maskedval": "256",
+        "outport": false,
+        "placeholder": "Nx",
+        "quietval": null,
+        "val": "256",
+        "visible": true
+       },
+       "name": "Nx",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105352877688,
+        "inport": false,
+        "mask": false,
+        "maskedval": "2",
+        "outport": false,
+        "placeholder": "Ny",
+        "quietval": null,
+        "val": "2",
+        "visible": true
+       },
+       "name": "Ny",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105352877256,
+        "inport": false,
+        "mask": false,
+        "maskedval": "0",
+        "outport": false,
+        "placeholder": "riseTime",
+        "quietval": null,
+        "val": "0",
+        "visible": true
+       },
+       "name": "Rise Time (s)",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105352877544,
+        "inport": false,
+        "mask": false,
+        "maskedval": "0",
+        "outport": false,
+        "placeholder": "rfDeadTime",
+        "quietval": null,
+        "val": "0",
+        "visible": true
+       },
+       "name": "RF Dead Time (s)",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105352879992,
+        "inport": false,
+        "mask": false,
+        "maskedval": "0",
+        "outport": false,
+        "placeholder": "adcDeadTime",
+        "quietval": null,
+        "val": "0",
+        "visible": true
+       },
+       "name": "ADC Dead Time (s)",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105588342072,
+        "inport": false,
+        "mask": false,
+        "maskedval": "1e-6",
+        "outport": false,
+        "placeholder": "rfRaster",
+        "quietval": null,
+        "val": "1e-6",
+        "visible": true
+       },
+       "name": "RF Raster Time (s)",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105588341640,
+        "inport": false,
+        "mask": false,
+        "maskedval": "10e-6",
+        "outport": false,
+        "placeholder": "gradRaster",
+        "quietval": null,
+        "val": "10e-6",
+        "visible": true
+       },
+       "name": "Gradient Raster Time (s)",
+       "type": "<class 'gpi.widgets.StringBox'>"
+      },
+      {
+       "kwargs": {
+        "collapsed": false,
+        "id": 140105588342504,
+        "inport": false,
+        "openExternalLinks": false,
+        "outport": false,
+        "quietval": null,
+        "val": "System limits:\nmax_grad: 1405008.0mT/m\nmax_slew: 4257600000.0T/m/s\nte: 0.01\ntr: 0.02\nflip: 0\nfov: 0.256\nNx: 256.0\nNy: 2.0\nrise_time: 0\nrf_dead_time: 0.0\nadc_dead_time: 0.0\nrf_raster_time: 1e-06\ngrad_raster_time: 1e-05",
+        "visible": true,
+        "wordwrap": false
+       },
+       "name": "System limits",
+       "type": "<class 'gpi.widgets.TextBox'>"
+      },
+      {
+       "kwargs": {
+        "button_title": "Compute events",
+        "collapsed": false,
+        "id": 140105352071208,
+        "inport": false,
+        "outport": false,
+        "quietval": null,
+        "toggle": false,
+        "val": false,
+        "visible": true
+       },
+       "name": "ComputeEvents",
+       "type": "<class 'gpi.widgets.PushButton'>"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}
